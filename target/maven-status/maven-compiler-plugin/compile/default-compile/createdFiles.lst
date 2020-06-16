@@ -1,0 +1,4 @@
+Data\ClientDAO.class
+web\ControlServlet.class
+Domain\Client.class
+Data\ConnectionManager.class
