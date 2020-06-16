@@ -10,7 +10,7 @@
         <title>Edit Client</title>
     </head>
     <body>
-        <jsp:include page="/WEB-INF/pages/common/header.jsp">
+        <jsp:include page="/WEB-INF/pages/commons/header.jsp">
             <jsp:param name="title" value="Edit Client" />
             <jsp:param name="icon" value="fas fa-edit" />
         </jsp:include>
@@ -19,7 +19,7 @@
             <jsp:param name="client" value="${client}" />
         </jsp:include>
 
-        <jsp:include page="/WEB-INF/pages/common/footer.jsp" />
+        <jsp:include page="/WEB-INF/pages/commons/footer.jsp" />
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
